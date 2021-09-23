@@ -27,8 +27,6 @@ conn.on('data', (data) => {
 return conn;
 };
 
-connect();
-
 module.exports = {
-  connect
+  connect  
 };
